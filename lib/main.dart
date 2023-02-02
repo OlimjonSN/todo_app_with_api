@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:todo_app_with_api/screens/addTask_screen.dart';
 import 'package:todo_app_with_api/screens/home_screen.dart';
 import 'package:todo_app_with_api/screens/signIn_screen.dart';
-import 'package:todo_app_with_api/screens/tasks_screen.dart';
 import 'package:todo_app_with_api/screens/welcome_screen.dart';
 
 void main() {
@@ -24,8 +23,8 @@ class MyApp extends StatelessWidget {
       routes: {
         Welcome.routeName: (context) => const Welcome(),
         SignIn.routeName: (context) => const SignIn(),
+        // Tasks.routeName: (context) => const Tasks(),
         HomeScreen.routeName: (context) => const HomeScreen(),
-        Tasks.routeName: (context) => const Tasks(),
         AddTask.routeName: (context) => const AddTask(),
       },
     );
